@@ -1,0 +1,13 @@
+packages:
+    -- bin
+    ./app/cli
+
+    -- test
+    ./test
+
+constraints:
+    base ^>= 4.17.2.1,
+
+ignore-project: False
+
+profiling: True

@@ -1,0 +1,12 @@
+cabal-version:      3.0
+name:               cli
+version:            0.1.0.0
+author:             NakagamiYuta
+maintainer:         guguru0014@gmail.com
+build-type:         Simple
+
+executable cli
+    main-is:        Main.hs
+    hs-source-dirs: src
+    build-depends:
+        base,

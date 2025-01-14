@@ -1,0 +1,9 @@
+cradle:
+  cabal:
+    # Bin
+    - path: "./app/cli"
+      component: "exe:cli"
+
+    # Test
+    - path: "./test"
+      component: "test:test"
