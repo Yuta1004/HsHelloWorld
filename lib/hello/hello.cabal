@@ -1,15 +1,15 @@
 cabal-version:      3.0
-name:               cli
+name:               hello
 version:            0.1.0.0
 author:             NakagamiYuta
 maintainer:         guguru0014@gmail.com
 build-type:         Simple
 
-executable cli
+library
     ghc-options:      -Wall
     default-language: GHC2021
     hs-source-dirs:   src
-    main-is:          Main.hs
     build-depends:
         base,
-        hello,
+    exposed-modules:
+        Hello,

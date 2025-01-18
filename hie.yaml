@@ -4,6 +4,10 @@ cradle:
     - path: "./app/cli"
       component: "exe:cli"
 
+    # Lib
+    - path: "./lib/hello"
+      component: "lib:hello"
+
     # Test
     - path: "./test"
       component: "test:test"

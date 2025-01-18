@@ -2,6 +2,9 @@ packages:
     -- bin
     ./app/cli
 
+    -- lib
+    ./lib/hello
+
     -- test
     ./test
 

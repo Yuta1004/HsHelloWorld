@@ -1,2 +1,4 @@
+import Hello (hello)
+
 main :: IO ()
-main = putStrLn "Hello, World!"
+main = hello "world"
